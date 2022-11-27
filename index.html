@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+<title>Ranger Weather Report</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row"><center>
+            <div class="col-12"><h1>Ranger Weather Report</h1></div>
+            <form name="weatherSearch" id="weatherSearchForm">
+                <div class="col-12"><input type="text" id="city_name" placeholder="Enter City Name"></div>
+                <div class="col-12"><input type="text" name="zip_code" id="zip_code" placeholder="Enter Zip Code"></div>
+                <div class="col-12"><button class="get-data" type="submit" onclick="loadData(), loadImg()">Get Data</button></div>
+                <div class="col-12"><button class="clear-data" onclick="clearData()">Clear Data</button></div></center>
+                <div class="col-12"><section class="weather-image"></section></div>
+                <div class="col-12"><section class="list-group weather-list"></section></div>
+            </form>
+            
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

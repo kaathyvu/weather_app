@@ -1,5 +1,5 @@
-const APIKey = "8bdd5ba80e1bfe5fdc25988abd3fbd8a";
-const unsplashAPIKey = "XOPCBWq_lPJsGFz7oTXd5EH_E8RXQeuSFqYlgh1PoFM"
+const APIKey = "";
+const unsplashAPIKey = ""
 
 const form = document.querySelector('#weatherSearchForm')
 
